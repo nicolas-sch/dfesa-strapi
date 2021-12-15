@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "politicas_de_privacidades",
+  "info": {
+    "name": "Politicas de privacidade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "politicasHeroTitulo": {
+      "type": "string"
+    }
+  }
+}

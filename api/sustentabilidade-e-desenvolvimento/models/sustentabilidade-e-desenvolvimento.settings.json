@@ -1,0 +1,166 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sustentabilidade_e_desenvolvimentos",
+  "info": {
+    "name": "Sustentabilidade e desenvolvimento",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sustentabilidadeHeroTitulo": {
+      "type": "string"
+    },
+    "sustentabilidadeHeroImagem": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "sobreDesenvolvimentoTitulo": {
+      "type": "string"
+    },
+    "sobreDesenvolvimentoTexto1": {
+      "type": "text"
+    },
+    "sobreDesenvolvimentoTexto2": {
+      "type": "text"
+    },
+    "parqueTitulo": {
+      "type": "string"
+    },
+    "parqueTexto": {
+      "type": "text"
+    },
+    "parqueImagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "programas1titulo": {
+      "type": "string"
+    },
+    "programas2titulo": {
+      "type": "string"
+    },
+    "programas3titulo": {
+      "type": "string"
+    },
+    "programas2texto1": {
+      "type": "text"
+    },
+    "programas2texto2": {
+      "type": "text"
+    },
+    "programas3texto1": {
+      "type": "text"
+    },
+    "programas3texto2": {
+      "type": "text"
+    },
+    "programas1texto1": {
+      "type": "text"
+    },
+    "programas1texto2": {
+      "type": "text"
+    },
+    "utilidadesTitulo": {
+      "type": "string"
+    },
+    "utilidadesBloco1Texto1": {
+      "type": "text"
+    },
+    "utilidadesBloco2Texto1": {
+      "type": "text"
+    },
+    "utilidadesBloco3Texto1": {
+      "type": "text"
+    },
+    "utilidadesBloco4Texto1": {
+      "type": "text"
+    },
+    "utilidadesImagem2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "utilidadesImagem3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "utilidadesImagem4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "utilidadesImagem1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "utilidadesTextoRodape1": {
+      "type": "text"
+    },
+    "utilidadesBloco1Texto2": {
+      "type": "text"
+    },
+    "utilidadesBloco4Texto2": {
+      "type": "text"
+    },
+    "utilidadesBloco4Texto3": {
+      "type": "text"
+    },
+    "utilidadesTextoRodape2": {
+      "type": "text"
+    },
+    "utilidadesTextoRodape3": {
+      "type": "text"
+    }
+  }
+}

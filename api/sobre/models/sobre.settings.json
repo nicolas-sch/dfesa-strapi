@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sobres",
+  "info": {
+    "name": "Sobre",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sobreHeroTitulo": {
+      "type": "string"
+    },
+    "sobreHeroText": {
+      "type": "text"
+    },
+    "sobreFazemosTitulo": {
+      "type": "string"
+    },
+    "sobreFazemosTexto": {
+      "type": "text"
+    },
+    "sobreDesenvolvimentoTitulo": {
+      "type": "string"
+    },
+    "sobreDesenvolvimentoTexto1": {
+      "type": "text"
+    },
+    "sobreDesenvolvimentoTexto2": {
+      "type": "text"
+    },
+    "sobreDesenvolvimentoTexto3": {
+      "type": "text"
+    },
+    "sobreTrajetoriaTitulo1": {
+      "type": "string"
+    },
+    "sobreTrajetoriaTitulo2": {
+      "type": "string"
+    },
+    "sobreTrajetoriaText": {
+      "type": "text"
+    },
+    "sobreNumerosTitulo": {
+      "type": "string"
+    },
+    "sobreNumerosDado1": {
+      "type": "string"
+    },
+    "sobreNumerosDado2": {
+      "type": "string"
+    },
+    "sobreNumerosDado3": {
+      "type": "string"
+    },
+    "sobreNumerosDado4": {
+      "type": "string"
+    },
+    "sobreNumerosDado5": {
+      "type": "string"
+    },
+    "sobreNumerosText1": {
+      "type": "string"
+    },
+    "sobreNumerosText2": {
+      "type": "string"
+    },
+    "sobreNumerosText3": {
+      "type": "string"
+    },
+    "sobreNumerosText4": {
+      "type": "string"
+    },
+    "sobreNumerosText5": {
+      "type": "string"
+    }
+  }
+}

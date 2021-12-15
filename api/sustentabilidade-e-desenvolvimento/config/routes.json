@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sustentabilidade-e-desenvolvimentos",
+      "handler": "sustentabilidade-e-desenvolvimento.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sustentabilidade-e-desenvolvimentos/count",
+      "handler": "sustentabilidade-e-desenvolvimento.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sustentabilidade-e-desenvolvimentos/:id",
+      "handler": "sustentabilidade-e-desenvolvimento.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sustentabilidade-e-desenvolvimentos",
+      "handler": "sustentabilidade-e-desenvolvimento.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sustentabilidade-e-desenvolvimentos/:id",
+      "handler": "sustentabilidade-e-desenvolvimento.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sustentabilidade-e-desenvolvimentos/:id",
+      "handler": "sustentabilidade-e-desenvolvimento.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

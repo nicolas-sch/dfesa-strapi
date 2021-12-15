@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "FAQ",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faqTitulo": {
+      "type": "string"
+    },
+    "faqCanalTitulo1": {
+      "type": "string"
+    },
+    "faqCanalTexto1": {
+      "type": "string"
+    },
+    "faqCanalLink": {
+      "type": "string"
+    },
+    "faqCanalTitulo2": {
+      "type": "string"
+    },
+    "faqCanalTel1": {
+      "type": "string"
+    },
+    "faqCanalTel2": {
+      "type": "string"
+    },
+    "faqCanalTel3": {
+      "type": "string"
+    },
+    "faqCanalTitulo3": {
+      "type": "string"
+    },
+    "faqCanalEmail": {
+      "type": "email"
+    },
+    "faqCanalImagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

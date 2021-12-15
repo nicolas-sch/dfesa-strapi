@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/politicas-de-privacidades",
+      "handler": "politicas-de-privacidade.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/politicas-de-privacidades/count",
+      "handler": "politicas-de-privacidade.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/politicas-de-privacidades/:id",
+      "handler": "politicas-de-privacidade.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/politicas-de-privacidades",
+      "handler": "politicas-de-privacidade.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/politicas-de-privacidades/:id",
+      "handler": "politicas-de-privacidade.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/politicas-de-privacidades/:id",
+      "handler": "politicas-de-privacidade.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
