@@ -167,6 +167,72 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "barragemNumber1": {
+      "type": "string"
+    },
+    "barragemNumber2": {
+      "type": "string"
+    },
+    "barragemNumber3": {
+      "type": "string"
+    },
+    "vertedouroNumber1": {
+      "type": "string"
+    },
+    "vertedouroNumber2": {
+      "type": "string"
+    },
+    "vertedouroNumber3": {
+      "type": "string"
+    },
+    "casaForcaNumber1": {
+      "type": "string"
+    },
+    "casaForcaNumber2": {
+      "type": "string"
+    },
+    "casaForcaNumber3": {
+      "type": "string"
+    },
+    "casaForcaNumber4": {
+      "type": "string"
+    },
+    "reservatorioNumber1": {
+      "type": "string"
+    },
+    "reservatorioNumber2": {
+      "type": "string"
+    },
+    "reservatorioNumber3": {
+      "type": "string"
+    },
+    "reservatorioNumber4": {
+      "type": "string"
+    },
+    "reservatorioNumber5": {
+      "type": "string"
+    },
+    "subestacaoNumber1": {
+      "type": "string"
+    },
+    "subestacaoNumber2": {
+      "type": "string"
+    },
+    "subestacaoNumber3": {
+      "type": "string"
+    },
+    "teste": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
