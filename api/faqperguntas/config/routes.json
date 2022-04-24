@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faqperguntas",
+      "handler": "faqperguntas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faqperguntas/count",
+      "handler": "faqperguntas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faqperguntas/:id",
+      "handler": "faqperguntas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faqperguntas",
+      "handler": "faqperguntas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faqperguntas/:id",
+      "handler": "faqperguntas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faqperguntas/:id",
+      "handler": "faqperguntas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

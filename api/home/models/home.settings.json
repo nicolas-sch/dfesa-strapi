@@ -45,66 +45,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "noticiasImagem1": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "noticiasImagem2": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "noticiasImagem3": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "noticiasImagem4": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "noticiasTitulo1": {
-      "type": "string"
-    },
-    "noticiasTitulo2": {
-      "type": "string"
-    },
-    "noticiasTitulo3": {
-      "type": "string"
-    },
-    "noticiasTitulo4": {
-      "type": "string"
-    },
     "estruturasImagem1": {
       "model": "file",
       "via": "related",
